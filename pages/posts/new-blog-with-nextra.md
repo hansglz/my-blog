@@ -1,27 +1,16 @@
 ---
-title: 'Next.js / Nextra 重构博客'
-date: 2022/11/04
-description: '折腾永无止境，但如何面对过去和未来。删了一些博文，也会增加新的。'
-author: Aozaki
+title: '过去，现在和将来'
+date: 2023/09/23
+description: 'Living my life accordingly.'
+author: Hans Zhang
 image:
 ---
 
-## 重构？
+## 重新审视
 
-恐怕还有读者记得之前我从 Hugo 迁移到 Next.js 又换回 Hugo 的经历。我也花了不少时间去调整 CSS 和相关功能。但终究觉得不够快，而且也不够简洁。
+如果把Gap year也算上的话，我也算是和CS打了7年交道了。然而一直到最近才硬下头皮逼着自己把自己的博客搭起来，惭愧啊惭愧。
 
-所以这次看到 [Nextra](https://github.com/shuding/nextra/tree/core) ，我就决定把博客迁移到这个框架上。
+这次之所以下这么大决心，一方面是刚刚完成了人生中一次重大社会身份的转变，另一方面是确实想记录些什么，不管是为了学习还是单纯为了记录而记录。
 
-## 之前的博文呢？
+Sometimes we seize the moment, sometimes the moment seizes us.
 
-折腾永无止境，但**如何面对过去和未来**永远是一个问题。
-
-首次迁移过程中我已经删除了很多 Vtuber 相关的文章。当时写得非常用心，也学习了很多东西，但终究成了不堪回首的过去。
-
-我实在不是很想面对那些文章，所以我把它们都删除了，留在了 GitHub 的早期 repo 里。
-
-## 未来呢？
-
-这个框架成熟、优雅，少了很多无谓的功能，也更适合专心写作。
-
-我现在正在码桌面 HiFi 相关的文章，但也有毕业论文在背后追着，我尽量早些写好吧。
