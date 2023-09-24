@@ -47,9 +47,6 @@ const NextraThemeConfig = {
         >
           <FaInstagram />
         </Link>
-        <Link href="/feed.xml" target="_blank" rel="noreferrer" aria-label="RSS" className="">
-          <FaRss />
-        </Link>
       </div>
       <small className="mt-32 block text-p-light dark:text-inherit">
         <abbr

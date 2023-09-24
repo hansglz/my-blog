@@ -1,44 +1,42 @@
-import { promises as fs } from 'fs'
-import matter from 'gray-matter'
-import { join } from 'path'
-import RSS from 'rss'
-
-// Message definition
-const msgError = '\x1b[0m[\x1b[31m ERROR \x1b[0m]'
-const msgDone = '\x1b[0m[\x1b[32m DONE \x1b[0m]'
-// const msgInfo = '\x1b[0m[\x1b[33m INFO \x1b[0m]'
-// const msgWarn = '\x1b[0m[\x1b[33m WARN \x1b[0m]'
+const { promises: fs } = require('fs')
+const path = require('path')
+const RSS = require('rss')
+const matter = require('gray-matter')
 
 async function generate() {
-  try {
-    const feed = new RSS({
-      title: "Aozaki's Blog",
-      site_url: 'https://blog.aozaki.cc',
-      feed_url: 'https://blog.aozaki.cc/feed.xml',
-    })
+  const feed = new RSS({
+    title: 'Your Name',
+    site_url: 'https://yoursite.com',
+    feed_url: 'https://yoursite.com/feed.xml'
+  })
 
-    const dirPath = join('./pages/posts')
-    const posts = await fs.readdir(dirPath)
+  const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))
+  const allPosts = []
+  await Promise.all(
+    posts.map(async (name) => {
+      if (name.startsWith('index.')) return
 
-    for (const post of posts.filter(fileName => !fileName.startsWith('index.'))) {
-      const content = await fs.readFile(join(dirPath, post))
+      const content = await fs.readFile(
+        path.join(__dirname, '..', 'pages', 'posts', name)
+      )
       const frontmatter = matter(content)
 
-      feed.item({
+      allPosts.push({
         title: frontmatter.data.title,
-        url: `/posts/${post.replace(/\.mdx?/, '')}`,
+        url: '/posts/' + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
-        author: frontmatter.data.author,
+        categories: frontmatter.data.tag.split(', '),
+        author: frontmatter.data.author
       })
-    }
+    })
+  )
 
-    await fs.writeFile('./public/feed.xml', feed.xml({ indent: true }))
-
-    console.log(msgDone, 'RSS feed generated successfully!')
-  } catch (error) {
-    console.error(msgError, 'Failed to generate RSS feed:', error)
-  }
+  allPosts.sort((a, b) => new Date(b.date) - new Date(a.date))
+  allPosts.forEach((post) => {
+      feed.item(post)
+  })
+  await fs.writeFile('./public/feed.xml', feed.xml({ indent: true }))
 }
 
 generate()
