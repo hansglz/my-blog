@@ -2,13 +2,13 @@ import { useRouter } from 'next/router'
 
 const Head = ({ meta }: { meta: { title: string; description: string; image: string } }) => {
   // Site info
-  const Site = `Aozaki's blog`
+  const Site = `Hans's blog`
   const twitterCard = `https://img.aozaki.cc/twitter-card.jpg`
 
   // Get router
   const router = useRouter()
   const canonicalUrl = (
-    `https://blog.aozaki.cc` + (router.asPath === '/' ? '' : router.asPath)
+    `https://hansglz.com` + (router.asPath === '/' ? '' : router.asPath)
   ).split('?')[0]
 
   // Get Current Title

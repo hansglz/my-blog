@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://blog.aozaki.cc
+Host: https://hansglz.com
 
 # Sitemaps
-Sitemap: https://blog.aozaki.cc/sitemap.xml
+Sitemap: https://hansglz.com/sitemap.xml
