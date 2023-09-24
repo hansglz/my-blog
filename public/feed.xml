@@ -4,15 +4,15 @@
         <description><![CDATA[Hans's Blog]]></description>
         <link>https://hansglz.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 24 Sep 2023 05:12:27 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 Sep 2023 05:27:03 GMT</lastBuildDate>
         <atom:link href="https://hansglz.com/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Next.js / Nextra 重构博客]]></title>
-            <description><![CDATA[折腾永无止境，但如何面对过去和未来。删了一些博文，也会增加新的。]]></description>
+            <title><![CDATA[过去，现在和将来]]></title>
+            <description><![CDATA[Living my life accordingly.]]></description>
             <link>/posts/new-blog-with-nextra</link>
             <guid isPermaLink="true">/posts/new-blog-with-nextra</guid>
-            <dc:creator><![CDATA[Aozaki]]></dc:creator>
-            <pubDate>Fri, 04 Nov 2022 07:00:00 GMT</pubDate>
+            <dc:creator><![CDATA[Hans Zhang]]></dc:creator>
+            <pubDate>Sat, 23 Sep 2023 07:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
