@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Aozaki's Blog]]></title>
+        <description><![CDATA[Aozaki's Blog]]></description>
+        <link>https://blog.aozaki.cc</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sun, 24 Sep 2023 04:51:31 GMT</lastBuildDate>
+        <atom:link href="https://blog.aozaki.cc/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Next.js / Nextra 重构博客]]></title>
+            <description><![CDATA[折腾永无止境，但如何面对过去和未来。删了一些博文，也会增加新的。]]></description>
+            <link>/posts/new-blog-with-nextra</link>
+            <guid isPermaLink="true">/posts/new-blog-with-nextra</guid>
+            <dc:creator><![CDATA[Aozaki]]></dc:creator>
+            <pubDate>Fri, 04 Nov 2022 07:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

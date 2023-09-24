@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://blog.aozaki.cc
+
+# Sitemaps
+Sitemap: https://blog.aozaki.cc/sitemap.xml
