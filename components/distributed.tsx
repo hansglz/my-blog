@@ -370,7 +370,7 @@ const Distributed = () => {
                   style={{ textDecoration: "none" }}
                   target="_blank"
                 >
-                  Spark (2012)
+                  Spark(2012)
                 </Link>
               </Button>
             </Flex>
@@ -388,7 +388,7 @@ const Distributed = () => {
                   style={{ textDecoration: "none" }}
                   target="_blank"
                 >
-                  Memcached at Facebook (2013)
+                  Memcached at Facebook(2013)
                 </Link>
               </Button>
             </Flex>
@@ -406,7 +406,7 @@ const Distributed = () => {
                   style={{ textDecoration: "none" }}
                   target="_blank"
                 >
-                  COPS (2011)
+                  COPS(2011)
                 </Link>
               </Button>
             </Flex>
@@ -460,7 +460,7 @@ const Distributed = () => {
                   style={{ textDecoration: "none" }}
                   target="_blank"
                 >
-                  Bitcoin (2008)
+                  Bitcoin(2008)
                 </Link>
               </Button>
               <Button size="1" variant="outline" asChild>
@@ -487,7 +487,7 @@ const Distributed = () => {
                   style={{ textDecoration: "none" }}
                   target="_blank"
                 >
-                  BlockStack (2017)
+                  BlockStack(2017)
                 </Link>
               </Button>
             </Flex>
