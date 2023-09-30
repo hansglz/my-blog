@@ -1,4 +1,12 @@
-import { Table, Text, HoverCard, Box, Link } from "@radix-ui/themes";
+import {
+  Table,
+  Text,
+  HoverCard,
+  Box,
+  Link,
+  Flex,
+  Button,
+} from "@radix-ui/themes";
 
 const Distributed = () => {
   return (
@@ -36,43 +44,145 @@ const Distributed = () => {
               </HoverCard.Content>
             </HoverCard.Root>
           </Table.Cell>
-          <Table.Cell>Resources_1</Table.Cell>
+          <Table.Cell>
+            <Flex gap="3">
+            <Button size="1" variant="outline">
+                <Link
+                  href="https://pdos.csail.mit.edu/6.824/labs/lab-mr.html"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  Lab1: MapReduce
+                </Link>
+              </Button>
+              <Button size="1" variant="outline">
+                <Link
+                  href="https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  MapReduce(2004)
+                </Link>
+              </Button>
+            </Flex>
+          </Table.Cell>
         </Table.Row>
 
         <Table.Row>
           <Table.RowHeaderCell>2</Table.RowHeaderCell>
           <Table.Cell>RPC and Threads</Table.Cell>
-          <Table.Cell>Resources_2</Table.Cell>
+          <Table.Cell>
+            <Flex gap="3">
+              <Button size="1" variant="outline">
+                Online Go Toturial
+              </Button>
+              <Button size="1" variant="outline">
+                kv.go
+              </Button>
+            </Flex>
+          </Table.Cell>
         </Table.Row>
 
         <Table.Row>
           <Table.RowHeaderCell>3</Table.RowHeaderCell>
           <Table.Cell>GFS</Table.Cell>
-          <Table.Cell>Resources_3</Table.Cell>
+          <Table.Cell>
+            <Flex gap="3">
+            <Button size="1" variant="outline">
+                <Link
+                  href="https://pdos.csail.mit.edu/6.824/labs/lab-raft.html"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  Lab2: Raft
+                </Link>
+              </Button>
+              <Button size="1" variant="outline">
+                <Link
+                  href="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  GFS(2003)
+                </Link>
+              </Button>
+            </Flex>
+          </Table.Cell>
         </Table.Row>
 
         <Table.Row>
           <Table.RowHeaderCell>4</Table.RowHeaderCell>
           <Table.Cell>Primary-Backup Replication</Table.Cell>
-          <Table.Cell>Resources_4</Table.Cell>
+          <Table.Cell>
+            <Flex gap="3">
+            <Button size="1" variant="outline">
+                <Link
+                  href="https://www.cs.princeton.edu/courses/archive/fall16/cos418/papers/scales-vm.pdf"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  Fault-Tolerant Virtual Machines(2010)
+                </Link>
+              </Button>
+            </Flex>
+          </Table.Cell>
         </Table.Row>
 
         <Table.Row>
           <Table.RowHeaderCell>5</Table.RowHeaderCell>
           <Table.Cell>Go, Threads, and Raft</Table.Cell>
-          <Table.Cell>Resources_5</Table.Cell>
+          <Table.Cell>
+            <Flex gap="3">
+              <Button size="1" variant="outline">
+                The Go Memory Model
+              </Button>
+            </Flex>
+          </Table.Cell>
         </Table.Row>
 
         <Table.Row>
           <Table.RowHeaderCell>6</Table.RowHeaderCell>
           <Table.Cell>Fault Tolerance: Raft (1)</Table.Cell>
-          <Table.Cell>Resources_6</Table.Cell>
+          <Table.Cell>
+            <Flex gap="3">
+              <Button size="1" variant="outline">
+                <Link
+                  href="https://raft.github.io/raft.pdf"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  Raft(2014)
+                </Link>
+              </Button>
+              <Button size="1" variant="outline" asChild>
+                <Link
+                  href="https://raft.github.io/"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  The Raft Consensus Algorithm
+                </Link>
+              </Button>
+            </Flex>
+          </Table.Cell>
         </Table.Row>
 
         <Table.Row>
           <Table.RowHeaderCell>7</Table.RowHeaderCell>
           <Table.Cell>Fault Tolerance: Raft (2)</Table.Cell>
-          <Table.Cell>Resources_7</Table.Cell>
+          <Table.Cell>
+            <Flex gap="3">
+              <Button size="1" variant="outline" asChild>
+                <Link
+                  href="https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  Optional: Paxos(2014)
+                </Link>
+              </Button>
+            </Flex>
+          </Table.Cell>
         </Table.Row>
 
         <Table.Row>
@@ -158,7 +268,6 @@ const Distributed = () => {
           <Table.Cell>AnalogicFS experience paper</Table.Cell>
           <Table.Cell>Resources_21</Table.Cell>
         </Table.Row>
-
       </Table.Body>
     </Table.Root>
   );
