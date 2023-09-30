@@ -73,11 +73,23 @@ const Distributed = () => {
           <Table.Cell>RPC and Threads</Table.Cell>
           <Table.Cell>
             <Flex gap="3">
-              <Button size="1" variant="outline">
-                Online Go Toturial
+            <Button size="1" variant="outline">
+                <Link
+                  href="http://tour.golang.org/"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  Online Go Toturial
+                </Link>
               </Button>
               <Button size="1" variant="outline">
-                kv.go
+                <Link
+                  href="https://pdos.csail.mit.edu/6.824/notes/kv.go"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  kv.go
+                </Link>
               </Button>
             </Flex>
           </Table.Cell>
@@ -133,8 +145,14 @@ const Distributed = () => {
           <Table.Cell>Go, Threads, and Raft</Table.Cell>
           <Table.Cell>
             <Flex gap="3">
-              <Button size="1" variant="outline">
-                The Go Memory Model
+            <Button size="1" variant="outline">
+                <Link
+                  href="https://golang.org/ref/mem"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  The Go Memory Model
+                </Link>
               </Button>
             </Flex>
           </Table.Cell>
@@ -451,7 +469,7 @@ const Distributed = () => {
                   style={{ textDecoration: "none" }}
                   target="_blank"
                 >
-                  How the Bitcoin protocol actually works
+                  How the Bitcoin protocol works
                 </Link>
               </Button>
             </Flex>
@@ -493,7 +511,7 @@ const Distributed = () => {
             </Flex>
           </Table.Cell>
         </Table.Row>
-        
+
       </Table.Body>
     </Table.Root>
   );
