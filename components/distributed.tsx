@@ -52,7 +52,7 @@ const Distributed = () => {
                   style={{ textDecoration: "none" }}
                   target="_blank"
                 >
-                  Lab1: MapReduce
+                  Lab 1: MapReduce
                 </Link>
               </Button>
               <Button size="1" variant="outline">
@@ -106,7 +106,7 @@ const Distributed = () => {
                   style={{ textDecoration: "none" }}
                   target="_blank"
                 >
-                  Lab2: Raft
+                  Lab 2: Raft
                 </Link>
               </Button>
               <Button size="1" variant="outline">
