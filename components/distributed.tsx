@@ -29,18 +29,23 @@ const Distributed = () => {
               <HoverCard.Trigger>
                 <Text>Introduction</Text>
               </HoverCard.Trigger>
-              <HoverCard.Content>
-                <Box>
-                  <Link
-                    href="https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=1"
-                    target="_blank"
-                  >
-                    Video
-                  </Link>
-                  <Link href="https://twitter.com/radix_ui" target="_blank">
-                    Note
-                  </Link>
-                </Box>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=1"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
               </HoverCard.Content>
             </HoverCard.Root>
           </Table.Cell>
@@ -70,7 +75,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>2</Table.RowHeaderCell>
-          <Table.Cell>RPC and Threads</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>RPC and Threads</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=gA4YXUJX7t8&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=2&t=2s&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
             <Button size="1" variant="outline">
@@ -97,7 +126,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>3</Table.RowHeaderCell>
-          <Table.Cell>GFS</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>GFS</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=EpIgvowZr00&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=3&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline">
@@ -124,7 +177,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>4</Table.RowHeaderCell>
-          <Table.Cell>Primary-Backup Replication</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Primary-Backup Replication</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=M_teob23ZzY&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=4"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline">
@@ -142,7 +219,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>5</Table.RowHeaderCell>
-          <Table.Cell>Go, Threads, and Raft</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Go, Threads, and Raft</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=UzzcUS2OHqo&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=5&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
             <Button size="1" variant="outline">
@@ -160,7 +261,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>6</Table.RowHeaderCell>
-          <Table.Cell>Fault Tolerance: Raft (1)</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Fault Tolerance: Raft (1)</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=64Zp3tzNbpE&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=6&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline">
@@ -187,7 +312,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>7</Table.RowHeaderCell>
-          <Table.Cell>Fault Tolerance: Raft (2)</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Fault Tolerance: Raft (2)</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=4r8Mz3MMivY&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=7&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -205,7 +354,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>8</Table.RowHeaderCell>
-          <Table.Cell>Zookeeper</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Zookeeper</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=pbmyrNjzdDk&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=8&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -223,7 +396,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>9</Table.RowHeaderCell>
-          <Table.Cell>More Replication, CRAQ</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>More Replication, CRAQ</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=IXHzbCuADt0&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=9&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -251,7 +448,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>10</Table.RowHeaderCell>
-          <Table.Cell>Cloud Replicated DB, Aurora</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Cloud Replicated DB, Aurora</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=jJSh54J1s5o&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=10&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -269,7 +490,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>11</Table.RowHeaderCell>
-          <Table.Cell>Cache Consistency: Frangipani</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Cache Consistency: Frangipani</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=-pKNCjUhPjQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=11&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -287,7 +532,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>12</Table.RowHeaderCell>
-          <Table.Cell>Distributed Transactions</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Distributed Transactions</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=aDp99WDIM_4&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=12&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="1">
               <Button size="1" variant="outline" asChild>
@@ -325,7 +594,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>13</Table.RowHeaderCell>
-          <Table.Cell>Spanner</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Spanner</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=4eW5SWBi7vs&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=13&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -343,7 +636,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>14</Table.RowHeaderCell>
-          <Table.Cell>Optimistic Concurrency Control</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Optimistic Concurrency Control</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=Cw6Nj2evjSs&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=14&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -361,7 +678,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>15</Table.RowHeaderCell>
-          <Table.Cell>Big Data: Spark</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Big Data: Spark</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=mzIoSW-cInA&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=15&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -379,7 +720,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>16</Table.RowHeaderCell>
-          <Table.Cell>Cache Consistency: Memcached at Facebook</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Cache Consistency: Memcached at Facebook</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=Myp8z0ybdzM&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=16&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -397,7 +762,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>17</Table.RowHeaderCell>
-          <Table.Cell>Causal Consistency, COPS</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Causal Consistency, COPS</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=fR_NB714EAI&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=17&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -415,7 +804,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>18</Table.RowHeaderCell>
-          <Table.Cell>Fork Consistency, Certificate Transparency</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Fork Consistency, Certificate Transparency</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=UKdLJ7-0iFM&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=18&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="2">
               <Button size="1" variant="outline" asChild>
@@ -451,7 +864,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>19</Table.RowHeaderCell>
-          <Table.Cell>Bitcoin</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Bitcoin</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=K_euhRou98Y&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=19&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -478,7 +915,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>20</Table.RowHeaderCell>
-          <Table.Cell>Blockstack</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>Blockstack</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=XvXK_vZ0BNw&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=20&pp=iAQB"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
@@ -496,7 +957,31 @@ const Distributed = () => {
 
         <Table.Row>
           <Table.RowHeaderCell>21</Table.RowHeaderCell>
-          <Table.Cell>AnalogicFS experience paper</Table.Cell>
+          <Table.Cell>
+            <HoverCard.Root>
+              <HoverCard.Trigger>
+                <Text>AnalogicFS experience paper</Text>
+              </HoverCard.Trigger>
+              <HoverCard.Content side="right" align="center" size="1">
+                <Flex gap="2">
+                  <Box>
+                    <Link
+                      href="https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=21"
+                      target="_blank"
+                      size="2"
+                    >
+                      Video
+                    </Link>
+                  </Box>
+                  <Box>
+                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                      Note
+                    </Link>
+                  </Box>
+                </Flex>
+              </HoverCard.Content>
+            </HoverCard.Root>
+          </Table.Cell>
           <Table.Cell>
             <Flex gap="3">
               <Button size="1" variant="outline" asChild>
