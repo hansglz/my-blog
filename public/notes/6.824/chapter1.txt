@@ -1,1 +1,104 @@
 Lecture 1: Introduction
+
+What is distributed system?
+  examples:
+    storage for websites
+    p2p file share
+    MapReduce
+  A solution that single system cannot solve
+
+Key aspects:
+  Parallelism / performance
+  Fault tolerance
+  Physical reasons
+  Securities / Isolation
+
+Challenges
+  Concurrency
+  Partial failure
+  thousand computers != thousand times of PERFORMANCE
+
+Labs
+  lab1 - MapReduce
+  lab2 - Raft
+  lab3 - KV server using Raft
+  lab4 - Sharded KV servers
+  project (optional)
+
+Infrastructure
+  Abstractions that hide behind the distributed system, build interfaces for them
+  Types:
+    Storage 
+      Mostly focused
+    Communication
+    Computation
+      MapReduce
+
+Topics
+  Implementation  
+    Remote Procedure Call 
+    Threads 
+    Concurrency control - locks
+  Performance 
+    Scalability: 2x resource -> 2x throughput
+  Fault Tolerance 
+    Availability: system will keep operating ignoring certain types of failures
+    Recoverability
+      Good availability often requires good recoverability 
+    Tools:
+      Non-volatile storage 
+      Replication
+  Consistency
+    A KV storage implementation: 
+      get & put call
+      different copies might return different values
+      Do not guarentee - if your system is too WEAK to fetch the latest data
+        weak systems are allowed considering how expensive communications are 
+        surprisingly, they might be even more popular!
+  
+MapReduce
+  a system designed, built and used by Google since 2004
+  Background:
+    problem: running huge computations building index of web on giant data 
+    engineers are handwriting software for multi-computer env 
+    need a framework so that Google don't need to make all their engineers distributed system experts
+  Simple example: word count 
+    input1 -> map()
+    input2 -> map()
+    input3 -> map()
+    ---------------------
+    collect map() responds and provide them to reducers - called SHUFFLE 
+    No data movement!
+    ---------------------
+    reduce() -> (a, 2)
+    reduce() -> (b, 2)
+    reduce() -> (c, 1)
+  Structure
+    Map(k, v) => this part knows nothing about distributed systems 
+      split v into words
+      for each word in words:
+        emit(w, '1')
+    Reduce(k, v) => requires no knowledge for distributed as well
+      emit(len(v))
+  MapReduce is more 'batch' approached, instead of 'stream' approached
+
+Q&A
+  when emit() is called, where it is run:
+    worker servers with a single master server 
+    master node has the high-level pov 
+    workers are only for calling map() and reduce()
+    everytime emit() is called, files are created in worker local disks
+    reduce workers are fetching data map workers' local disk,
+    GFS cluster file service for reducer emit() function call
+  GFS 
+    Files in Google are storing in 64MB chunks,
+    evenly distributed to different machines
+    when map workers wanna start working, data are already splited up in those chunks,
+    they can just pick it up and work in parallel 
+  Bottleneck for MapReduce:
+    Network throughtput
+    that is why in map phase, they are avoiding using network by running calculation within the same server 
+    so that when master splits up the work, since GFS already implemented,
+    vast amount of time and bandwidth is saved
+    Simillarly, storing outcome of reduce call doesn't require network communication
+    only SHUFFLE requires network communication
