@@ -8,6 +8,8 @@ import {
   Button,
 } from "@radix-ui/themes";
 
+const NOTES_DIR = '/notes/6.824/chapter';
+
 const Distributed = () => {
   return (
     <Table.Root>
@@ -41,7 +43,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}1.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -92,7 +94,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}2.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -143,7 +145,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}3.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -194,7 +196,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}4.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -236,7 +238,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}5.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -278,7 +280,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}6.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -329,7 +331,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}7.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -371,7 +373,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}8.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -413,7 +415,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}9.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -465,7 +467,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}10.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -507,7 +509,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}11.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -549,7 +551,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}12.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -611,7 +613,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}13.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -653,7 +655,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}14.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -695,7 +697,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}15.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -737,7 +739,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}16.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -779,7 +781,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}17.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -821,7 +823,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}18.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -881,7 +883,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}19.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -932,7 +934,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}20.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>
@@ -974,7 +976,7 @@ const Distributed = () => {
                     </Link>
                   </Box>
                   <Box>
-                    <Link href="https://twitter.com/radix_ui" target="_blank" size="2">
+                    <Link href={`${NOTES_DIR}21.txt`} target="_blank" size="2">
                       Note
                     </Link>
                   </Box>

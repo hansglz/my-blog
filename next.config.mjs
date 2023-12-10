@@ -46,7 +46,7 @@ export default withNextra({
 
   // Image Loaders
   images: {
-    domains: ['img.aozaki.cc'],
+    domains: ['hansglz.com'],
     unoptimized: true,
   },
 
@@ -71,31 +71,6 @@ export default withNextra({
       {
         source: '/posts/kanaut-nishe-goods-1',
         destination: '/posts/kanaut-nishe-merch',
-        permanent: true,
-      },
-      {
-        source: '/blog/:slug*',
-        destination: '/posts/:slug*',
-        permanent: true,
-      },
-      {
-        source: '/portfoilo/:slug*',
-        destination: '/photography/:slug*',
-        permanent: true,
-      },
-      {
-        source: '/about',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/desk-new-layout',
-        destination: '/posts/new-desktop-layout',
-        permanent: true,
-      },
-      {
-        source: '/bladerunner-revisit',
-        destination: '/posts/bladerunner-revisit',
         permanent: true,
       },
     ]

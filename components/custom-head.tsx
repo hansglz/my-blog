@@ -3,7 +3,6 @@ import { useRouter } from 'next/router'
 const Head = ({ meta }: { meta: { title: string; description: string; image: string } }) => {
   // Site info
   const Site = `Hans's blog`
-  const twitterCard = `https://img.aozaki.cc/twitter-card.jpg`
 
   // Get router
   const router = useRouter()
@@ -20,7 +19,7 @@ const Head = ({ meta }: { meta: { title: string; description: string; image: str
       <meta name="robots" content="noodp" />
       <title>{currentTitle}</title>
       <meta name="title" content={currentTitle} />
-      <meta name="author" content="Aozaki" />
+      <meta name="author" content="Hans Z" />
       <meta name="description" content={meta.description} />
       <link rel="canonical" href={canonicalUrl} />
 
@@ -29,16 +28,16 @@ const Head = ({ meta }: { meta: { title: string; description: string; image: str
       <meta property="og:description" content={meta.description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={canonicalUrl} />
-      <meta property="og:image" content={meta.image || twitterCard} />
+      <meta property="og:image" content={meta.image} />
       <meta name="og:site_name" content={Site} />
 
       {/* SEO : Twitter Card */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:image" content={meta.image || twitterCard} />
+      <meta property="twitter:image" content={meta.image} />
       <meta property="twitter:title" content={currentTitle} />
       <meta property="twitter:description" content={meta.description} />
       <meta property="twitter:url" content={canonicalUrl} />
-      <meta property="twitter:site" content="@Aozaki__" />
+      <meta property="twitter:site" content="@hanseglz" />
 
       {/* SEO : PWA realted */}
       <meta name="application-name" content={Site} />
