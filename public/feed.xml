@@ -4,8 +4,24 @@
         <description><![CDATA[Hans's Blog]]></description>
         <link>https://hansglz.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 05 Nov 2023 06:51:19 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Feb 2025 19:09:04 GMT</lastBuildDate>
         <atom:link href="https://hansglz.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[27]]></title>
+            <description><![CDATA[Pride in individuality, always.]]></description>
+            <link>/posts/27</link>
+            <guid isPermaLink="true">/posts/27</guid>
+            <dc:creator><![CDATA[Hans Zhang]]></dc:creator>
+            <pubDate>Tue, 26 Nov 2024 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[溢出的傲慢 - 《拿破仑》2023]]></title>
+            <description><![CDATA[教科书式的晚节不保]]></description>
+            <link>/posts/Napoleon</link>
+            <guid isPermaLink="true">/posts/Napoleon</guid>
+            <dc:creator><![CDATA[Hans Zhang]]></dc:creator>
+            <pubDate>Wed, 06 Dec 2023 08:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[过去，现在和将来]]></title>
             <description><![CDATA[Living my life accordingly.]]></description>
