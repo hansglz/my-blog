@@ -1,1 +1,21 @@
-CS224n Lecture 1 Notes - TBD
+CS224n Lecture 1 Notes
+
+
+1. Lecture
+Human languages: a brief history
+GPT-3
+
+Wordnet
+Tradintional NLP: we regard wods as discrete systems
+we have to have huge vectors to represent words
+vector dimension = number of words in vocabulary
+
+Modern way: DL with distributional semantics
+A word's meaning is given by †he words that frequently appear close-by, that is said, representing words by their context
+
+Word vectors
+We will build a dense vector for each word, chose so that it is similar to vectors of words that appear in simialr contexts
+Note: word vecotrs are also called word embeddings, they are distributed representation
+
+Word2vec: overview
+a frameword for learning word vecotrs 2013
