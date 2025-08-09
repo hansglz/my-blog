@@ -6,7 +6,7 @@ Human languages: a brief history
 GPT-3
 
 Wordnet
-Tradintional NLP: we regard wods as discrete systems
+Tradintional NLP: we regard words as discrete systems
 we have to have huge vectors to represent words
 vector dimension = number of words in vocabulary
 
@@ -19,3 +19,18 @@ Note: word vecotrs are also called word embeddings, they are distributed represe
 
 Word2vec: overview
 a frameword for learning word vecotrs 2013
+idea:
+    - we have a large corpus of text
+    - every word in a fixed vocabulary is represented as a vector
+    - go through each position t in the text, which has a center word of c and context words of o
+    - use the similarity of the word vecotrs for c and o to calculate the probability of o given c
+    - keep adjusting the word vecotrs to maximize this probability
+question: how to calculate the probability of next word?
+    - we will use two vectors per word w:
+        - Vw when w is a center Word
+        - Uw when w is a context Word
+
+Softmax function: maps arbitary values x to probability distribution p 
+
+Chain rule:
+man + king - woman = queen!
